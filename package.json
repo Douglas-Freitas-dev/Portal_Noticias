@@ -9,7 +9,10 @@
   "author": "Douglas Freitas",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "consign": "^0.1.6",
+=======
+>>>>>>> dcc3ff9916759b3e7674797e91bde94efb1a900a
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
