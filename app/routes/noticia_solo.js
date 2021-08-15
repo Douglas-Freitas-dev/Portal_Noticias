@@ -1,10 +1,10 @@
 module.exports = function (application) {
-
-  application.get("/noticias", (req, res) => {
+  
+  application.get("/noticia_solo", (req, res) => {
     const connection = application.config.dbconnection();
     const noticiasModel = new application.app.models.noticiasDAO(connection);
 
-    noticiasModel.getNoticias(function (error, result) {
+    noticiasModel.getNoticia(function (error, result) {
       res.render("pages/noticias", { noticias: result });
 
     });
